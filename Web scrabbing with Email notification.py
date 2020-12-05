@@ -80,5 +80,5 @@ message = "\r\n".join(["Subject: #<Subject>", '', msg])
 context = ssl.create_default_context()
 #Send the message
 with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-    server.login(sender_email, password)
+    server.login(sender_email, #<Password to login to gmail>)
     server.sendmail(sender_email, receivers, message)
