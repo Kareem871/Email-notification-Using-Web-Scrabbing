@@ -1,4 +1,4 @@
-import time, datetime
+import datetime
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.firefox.options import Options
